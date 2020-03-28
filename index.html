@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="./assets/title.png" type="image/x-icon" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Dota 2 Landing Page</title>
+  </head>
+  <body>
+    <div>
+      <header id="header">
+        <img
+          src="./assets/title.png"
+          alt="logo"
+          id="header-img"
+          height="40vh"
+        />
+        <nav id="nav-bar">
+          <a href="#description" class="nav-link"
+            ><button>Description</button></a
+          >
+          <a href="#gameplay" class="nav-link"><button>Gameplay</button></a>
+          <a href="#reviews" class="nav-link"><button>Reviews</button></a>
+        </nav>
+      </header>
+      <div id="div-video">
+        <iframe
+          id="video"
+          width="560"
+          height="315"
+          src="https://www.youtube.com/embed/-cSFPIwMEq4"
+          frameborder="0"
+          allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen
+        ></iframe>
+      </div>
+      <div id="div-form">
+        <form
+          action="https://www.freecodecamp.com/email-submit"
+          id="form"
+          method="POST"
+        >
+          <input
+            type="email"
+            name="email"
+            id="email"
+            placeholder="Enter Your Email..."
+          /><input type="submit" value="Get Started" id="submit" />
+        </form>
+      </div>
+      <div id="description">
+        <h1>
+          Description
+        </h1>
+        <p>
+          Dota 2 is a multiplayer online battle arena (MOBA) video game in
+          which<br />
+          two teams of five players compete to collectively destroy a large<br />
+          structure defended by the opposing team known as the "Ancient",
+          whilst<br />
+          defending their own.
+        </p>
+      </div>
+      <div id="gameplay">
+        <h1>Gameplay</h1>
+        <iframe
+          width="560"
+          height="315"
+          src="https://www.youtube.com/embed/jY4rtLmWwXQ"
+          frameborder="0"
+          allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen
+        ></iframe>
+      </div>
+      <div id="reviews">
+        <h1>Reviews</h1>
+        <p>
+          We originally reviewed Dota 2 in 2013. It has changed significantly <br>
+          since then, so much so that we decided to review it again. Our <br>
+          original review can still be found here. For more about why we've <br>
+          chosen to re-review certain games, head here.
+        </p>
+      </div>
+    </div>
+  </body>
+</html>
